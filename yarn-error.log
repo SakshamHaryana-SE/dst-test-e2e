@@ -1,0 +1,26 @@
+Arguments: 
+  /Users/chakshugautam/.nvm/versions/node/v16.13.1/bin/node /Users/chakshugautam/.nvm/versions/node/v16.13.1/bin/yarn add @size-limit/preset-small-lib husky size-limit tsdx tslib typescript --dev
+
+PATH: 
+  /Users/chakshugautam/Work/dst-test-e2e/node_modules/.bin:/Users/chakshugautam/Work/node_modules/.bin:/Users/chakshugautam/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/Users/chakshugautam/.nvm/versions/node/v16.13.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/Users/chakshugautam/.npm/_npx/99d8f6679c19e750/node_modules/.bin:/Users/chakshugautam/.nvm/versions/node/v16.13.1/bin:/Users/chakshugautam/Library/pnpm:/Users/chakshugautam/.jenv/shims:/Users/chakshugautam/.nvm/versions/node/v12.22.6/bin:/opt/local/bin:/opt/local/sbin:/usr/local/opt/openssl/bin:/Users/chakshugautam/.jenv/bin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/chakshugautam/Library/pnpm:/Users/chakshugautam/.jenv/shims:/Users/chakshugautam/.nvm/versions/node/v12.22.6/bin:/opt/local/bin:/opt/local/sbin:/usr/local/opt/openssl/bin:/Users/chakshugautam/.jenv/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/opt/homebrew/bin:/opt/homebrew/sbin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: ENOSPC: no space left on device, copyfile '/Users/chakshugautam/Library/Caches/Yarn/v6/npm-resolve-1.17.0-b25941b54968231cc2d1bb76a79cb7f2c0bf8444-integrity/node_modules/resolve/test/mock.js' -> '/Users/chakshugautam/Work/dst-test-e2e/dst-tests/node_modules/tsdx/node_modules/resolve/test/mock.js'
+
+npm manifest: 
+  {"version":"0.1.0","license":"MIT","main":"dist/index.js","typings":"dist/index.d.ts","files":["dist","src"],"engines":{"node":">=10"},"scripts":{"start":"tsdx watch","build":"tsdx build","test":"tsdx test","lint":"tsdx lint","prepare":"tsdx build","size":"size-limit","analyze":"size-limit --why"},"peerDependencies":{},"husky":{"hooks":{"pre-commit":"tsdx lint"}},"prettier":{"printWidth":80,"semi":true,"singleQuote":true,"trailingComma":"es5"},"name":"dst-tests","author":"ChakshuGautam","module":"dist/dst-tests.esm.js","size-limit":[{"path":"dist/dst-tests.cjs.production.min.js","limit":"10 KB"},{"path":"dist/dst-tests.esm.js","limit":"10 KB"}]}
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
